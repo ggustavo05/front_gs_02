@@ -2,7 +2,7 @@
 import Header from "@/components/Header/header";
 import ImageCard from "@/components/ImageCard/imagecard";
 import InfoSection from "@/components/InfoSection/Infosection";
-import MapPlaceholder from "@/components/MapPlaceholder/mapPlaceholder";
+import MapWrapper from "@/components/MapPlaceholder/MapWrapper";
 import SmsBanner from "@/components/SmsBanner/smsBanner";
 
 export default function Home() {
@@ -11,7 +11,7 @@ export default function Home() {
       <Header />
       <ImageCard />
       <InfoSection />
-      <MapPlaceholder />
+      <MapWrapper />
       <SmsBanner />
     </main>
   );
