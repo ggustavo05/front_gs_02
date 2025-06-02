@@ -7,7 +7,8 @@ import SmsBanner from "@/components/SmsBanner/smsBanner";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center bg-white min-h-screen px-4 pt-20">
+    <main className="flex flex-col items-center bg-white min-h-screen px-4 pt-[80px]">
+
       <Header />
       <ImageCard />
       <InfoSection />
