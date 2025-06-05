@@ -73,24 +73,30 @@ export default function AdicionarArea() {
   }
 
   return (
-    <div className="bg-white min-h-screen pt-20 px-4">
+    <div className="bg-white min-h-screen pt-24 px-4"> {/* Aumentei o padding-top de 20 para 24 */}
       <Header />
 
-      <div className="flex flex-col gap-y-6">
-        <div className="flex gap-2 items-center">
-          <input
-            type="text"
-            placeholder="Digite o seu CEP"
-            value={cep}
-            onChange={(e) => setCep(e.target.value)}
-            className="rounded-full px-4 py-2 shadow w-full"
-          />
-          <button
-            onClick={buscarCep}
-            className="bg-blue-500 text-white p-2 rounded-full"
-          >
-            🔍
-          </button>
+      <div className="flex flex-col gap-y-6 mt-6"> {/* Espaçamento extra após o header */}
+        <div className="flex flex-col gap-2">
+          <label htmlFor="cep" className="text-black font-medium">
+            Digite o CEP
+          </label>
+          <div className="flex gap-2 items-center">
+            <input
+              id="cep"
+              type="text"
+              placeholder="Ex: 12345-678"
+              value={cep}
+              onChange={(e) => setCep(e.target.value)}
+              className="rounded-full px-4 py-2 shadow w-full text-black" // força texto preto
+            />
+            <button
+              onClick={buscarCep}
+              className="bg-blue-500 text-white p-2 rounded-full"
+            >
+              🔍
+            </button>
+          </div>
         </div>
 
         <div className="border-2 border-orange-500 rounded-lg overflow-hidden">
