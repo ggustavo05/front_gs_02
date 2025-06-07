@@ -2,8 +2,6 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { useRouter } from "next/navigation";
-import { useEffect, useState } from "react";
 import OrientationCard from "@/components/OrientationCard/orientationCard";
 import logo from "@/assets/logo.png";
 
@@ -12,22 +10,6 @@ const casa = "/assets/icone-casa.svg";
 const nuvem = "/assets/icone-nuvem.svg";
 
 export default function OrientacoesPage() {
-  const router = useRouter();
-  const [hasHistory, setHasHistory] = useState(false);
-
-  useEffect(() => {
-    // Detecta se há histórico de navegação (simples)
-    setHasHistory(window.history.length > 2);
-  }, []);
-
-  const handleBack = () => {
-    if (hasHistory) {
-      router.back(); // Volta para a página anterior, se existir
-    } else {
-      router.push("/"); // Se entrou direto no link, vai para a home
-    }
-  };
-
   return (
     <main className="bg-[#f7f7f7] min-h-screen flex flex-col items-center pb-10">
       <div className="w-full bg-[#446EA4] py-4 px-4 flex justify-between items-center relative">

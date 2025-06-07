@@ -44,6 +44,7 @@ export default function AdicionarArea() {
         lng: parseFloat(geoData[0].lon),
       });
     } catch (err) {
+      console.error(err);  // Isso ajuda a visualizar o erro completo no console
       alert("Erro ao localizar CEP");
     }
   }

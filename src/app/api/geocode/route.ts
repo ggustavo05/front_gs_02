@@ -33,9 +33,15 @@ export async function GET(req: Request) {
       headers: { "Content-Type": "application/json" },
     });
   } catch (error) {
-    return new Response(JSON.stringify({ error: "Erro interno" }), {
+  return new Response(
+    JSON.stringify({
+      error: "Erro interno", 
+      message: error instanceof Error ? error.message : 'Erro desconhecido'
+    }), 
+    {
       status: 500,
       headers: { "Content-Type": "application/json" },
-    });
-  }
+    }
+  );
+}
 }

@@ -1,23 +1,17 @@
 "use client";
 
 import { MapContainer, TileLayer, Marker, Popup, Circle } from "react-leaflet";
-import L from "leaflet";
+import L, { IconOptions } from "leaflet";
 import "leaflet/dist/leaflet.css";
 import pinIcon from "@/../public/pin-laranja.png";
 
-// Corrige os ícones padrões para evitar 404s
-delete (L.Icon.Default.prototype as any)._getIconUrl;
-L.Icon.Default.mergeOptions({
-  iconRetinaUrl: "",
-  iconUrl: "",
-  shadowUrl: "",
-});
+
 
 const customIcon = new L.Icon({
   iconUrl: pinIcon.src,
   iconSize: [40, 40],
   iconAnchor: [20, 40],
-});
+} as IconOptions);
 
 interface Risco {
   latitude: number;
