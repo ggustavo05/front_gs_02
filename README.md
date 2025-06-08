@@ -39,3 +39,10 @@ O projeto foi desenvolvido como parte da disciplina de Desenvolvimento Web para 
 | Gustavo Gonçalves  | 556823   |
 
 ---
+
+## 📦 Instalação e Uso
+
+### Pré-requisitos
+
+- Node.js (versão 18+ recomendada)
+- npm, yarn ou pnpm
