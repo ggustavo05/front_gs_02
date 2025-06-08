@@ -99,3 +99,9 @@ Depois, abra [http://localhost:3000](http://localhost:3000) no seu navegador.
 - **Geolib** – cálculo de distância entre o usuário e áreas de risco.
 
 ---
+## 🔐 Considerações de Segurança
+
+- Não são utilizadas autenticações, pois o foco está na acessibilidade e demonstração.
+- O app pode ser facilmente integrado a sistemas mais robustos com backend e login.
+
+---
