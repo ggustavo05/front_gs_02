@@ -29,3 +29,13 @@ O projeto foi desenvolvido como parte da disciplina de Desenvolvimento Web para 
 - **Font: Geist da Vercel**
 
 ---
+
+## 👩‍💻 Participantes
+
+| Nome               | RM       |
+|--------------------|----------|
+| Amanda Galdino     | 560066   |
+| Bruno Cantacini    | 560242   |
+| Gustavo Gonçalves  | 556823   |
+
+---
