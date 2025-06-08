@@ -15,3 +15,17 @@ O projeto foi desenvolvido como parte da disciplina de Desenvolvimento Web para 
 - Simplicidade e acessibilidade
 
 ---
+
+## 🧪 Tecnologias Utilizadas
+
+- **Next.js** (Framework React)
+- **TypeScript**
+- **Tailwind CSS** (via NativeWind)
+- **Leaflet.js** (para mapas interativos)
+- **Day.js** (tratamento de datas)
+- **Nominatim API** (geocodificação)
+- **Geolib** (cálculo de distância geográfica)
+- **Vercel** (para deploy, opcional)
+- **Font: Geist da Vercel**
+
+---
