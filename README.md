@@ -139,3 +139,8 @@ Este projeto é uma **prova de conceito**. Futuramente pode ser expandido com:
 ---
 
 💡 **SOS Localiza** — porque estar preparado faz toda a diferença!
+
+---
+Link vídeo explicativo sobre projeto
+
+https://www.youtube.com/watch?v=i1V_NAPZjwQ
