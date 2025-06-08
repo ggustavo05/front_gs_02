@@ -62,3 +62,20 @@ npm install
 # Rode o projeto
 npm run dev
 ```
+Depois, abra [http://localhost:3000](http://localhost:3000) no seu navegador.
+
+---
+
+## 🗺️ Funcionalidades Principais
+
+- Mapa interativo exibindo áreas de risco (dados em `public/dados_para_mapa.json`)
+- Ícone do usuário mostrando sua localização
+- Círculos de risco com cores diferentes (verde, laranja, vermelho)
+- Identificação automática de:
+  - Se está em uma área de risco
+  - Se há risco próximo
+  - Se está em local seguro
+- Modal com orientações de segurança
+- Tela de busca por CEP
+
+---
