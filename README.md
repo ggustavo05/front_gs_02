@@ -46,3 +46,19 @@ O projeto foi desenvolvido como parte da disciplina de Desenvolvimento Web para 
 
 - Node.js (versão 18+ recomendada)
 - npm, yarn ou pnpm
+
+### Passos para rodar localmente
+
+```bash
+# Clone o repositório
+git clone <URL-do-repositório>
+
+# Acesse a pasta do projeto
+cd front_gs_02-main
+
+# Instale as dependências
+npm install
+
+# Rode o projeto
+npm run dev
+```
