@@ -93,3 +93,9 @@ Depois, abra [http://localhost:3000](http://localhost:3000) no seu navegador.
 ```
 
 ---
+## 📍 APIs Utilizadas
+
+- **Nominatim OpenStreetMap** – para buscar coordenadas via CEP.
+- **Geolib** – cálculo de distância entre o usuário e áreas de risco.
+
+---
