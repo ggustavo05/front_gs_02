@@ -79,3 +79,17 @@ Depois, abra [http://localhost:3000](http://localhost:3000) no seu navegador.
 - Tela de busca por CEP
 
 ---
+## 🧩 Estrutura de Pastas
+
+```
+📁 front_gs_02-main
+├── app/                 # Páginas e rotas do Next.js
+├── components/          # Componentes reutilizáveis (Header, Modal, Cards)
+├── public/              # Arquivos estáticos (imagens, JSON com dados)
+├── styles/              # Estilos globais
+├── utils/               # Funções auxiliares
+├── tsconfig.json        # Configuração TypeScript
+└── package.json         # Dependências do projeto
+```
+
+---
