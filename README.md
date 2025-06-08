@@ -105,3 +105,37 @@ Depois, abra [http://localhost:3000](http://localhost:3000) no seu navegador.
 - O app pode ser facilmente integrado a sistemas mais robustos com backend e login.
 
 ---
+## 📤 Deploy
+
+Você pode subir esse projeto no [Vercel](https://vercel.com) facilmente:
+
+1. Crie uma conta no Vercel.
+2. Conecte seu repositório GitHub.
+3. A Vercel detectará o uso de Next.js automaticamente.
+4. Clique em **Deploy** e aguarde.
+
+---
+
+## 🧠 Aprendizados
+
+Este projeto permitiu aos alunos aplicar conceitos como:
+
+- Componentização em React
+- Consumo de APIs externas
+- Trabalhar com mapas geográficos
+- UX focado em situações críticas
+
+---
+
+## 📌 Observações Finais
+
+Este projeto é uma **prova de conceito**. Futuramente pode ser expandido com:
+
+- Backend com banco de dados
+- Cadastro de alertas em tempo real
+- Integração com Defesa Civil
+- App mobile com push notifications
+
+---
+
+💡 **SOS Localiza** — porque estar preparado faz toda a diferença!
