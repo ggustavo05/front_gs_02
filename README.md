@@ -144,3 +144,8 @@ Este projeto é uma **prova de conceito**. Futuramente pode ser expandido com:
 Link vídeo explicativo sobre projeto
 
 https://www.youtube.com/watch?v=i1V_NAPZjwQ
+
+---
+
+Link de deploy na vercel
+https://soslocaliza02.vercel.app/
