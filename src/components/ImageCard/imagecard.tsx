@@ -10,7 +10,7 @@ export default function ImageCard() {
     <div className="flex flex-col items-center text-center mt-6 space-y-4 px-6">
       <Image src={escudo} alt="Escudo SOS Localiza" width={110} height={110} />
       <p className="text-[#446EA4] font-semibold text-base leading-snug">
-        Cadastre o <span className="text-[#F57200]">CEP</span> de sua residência para receber alertas sobre eventos adversos em São Paulo.
+        Verifique o <span className="text-[#F57200]">CEP</span> de sua residência para ficar por dentro sobre eventos adversos em na região.
       </p>
       <Link href="/adicionar-area">
         <button className="bg-[#446EA4] text-white flex items-center px-4 py-2 rounded-full shadow-md hover:brightness-110 transition">
